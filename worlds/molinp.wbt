@@ -1,0 +1,297 @@
+#VRML_SIM R2019a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.8855328628824557 -0.45187354480867586 -0.107897396897441 0.5782991631926484
+  position -1.0178943384791446 1.498510556773619 2.0941795066404723
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Floor {
+}
+DEF MOLINO_1 Solid {
+  translation 0 0.30999999999999994 0
+  children [
+    DEF GR_OBJECT Group {
+      children [
+        DEF S_CYL1 Transform {
+          translation -0.06999999999999999 0.019999999999999997 0.06999999999999999
+          rotation 0.7071067811865475 0 0.7071067811865475 0.39
+          children [
+            Shape {
+              appearance PBRAppearance {
+              }
+              geometry Cylinder {
+                height 0.7
+                radius 0.03
+              }
+            }
+          ]
+        }
+        DEF S_CYL2 Transform {
+          translation -0.33 0.02 0.08
+          rotation 0.7071067811865475 0 -0.7071067811865475 0.39
+          children [
+            Shape {
+              appearance PBRAppearance {
+              }
+              geometry Cylinder {
+                height 0.7
+                radius 0.03
+              }
+            }
+          ]
+        }
+        DEF S_CYL3 Transform {
+          translation -0.06999999999999999 0.02 0.33
+          rotation -0.7071067811865475 0 0.7071067811865475 0.39
+          children [
+            Shape {
+              appearance PBRAppearance {
+              }
+              geometry Cylinder {
+                height 0.7
+                radius 0.03
+              }
+            }
+          ]
+        }
+        DEF S_CYL4 Transform {
+          translation -0.33 0.02 0.33
+          rotation -0.7071067811865475 0 -0.7071067811865475 0.39
+          children [
+            Shape {
+              appearance PBRAppearance {
+              }
+              geometry Cylinder {
+                height 0.7
+                radius 0.03
+              }
+            }
+          ]
+        }
+        DEF Box Transform {
+          translation -0.20000000000000004 -0.09 0.21000000000000044
+          children [
+            Shape {
+              appearance PBRAppearance {
+                transparency 1
+              }
+              geometry Box {
+                size 0.4 0.4 0.4
+              }
+            }
+          ]
+        }
+        DEF Box1 Transform {
+          translation -0.20000000000000004 0.35000000000000014 0.20000000000000046
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 0 0 0
+              }
+              geometry Box {
+                size 0.15 0.05 0.15
+              }
+            }
+          ]
+        }
+        DEF Box6 Transform {
+          translation -0.20000000000000004 0.4000000000000002 0.20000000000000046
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 0 0 0
+              }
+              geometry Box {
+                size 0.15 0.15 0.15
+              }
+            }
+          ]
+        }
+        Transform {
+          translation -0.16999999999999998 0.4700000000000002 0.20000000000000046
+          rotation 0 0 1 0.8044996938995747
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 0 0 0
+              }
+              geometry Box {
+                size 0.05 0.05 0.05
+              }
+            }
+          ]
+        }
+        DEF Box2 Transform {
+          translation -0.05 0.08000000000000011 0.20000000000000046
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 0 0 0
+              }
+              geometry Box {
+                size 0.01 0.05 0.28
+              }
+            }
+          ]
+        }
+        DEF Box3 Transform {
+          translation -0.20012736471349254 0.08000000000000011 0.35988050026248397
+          rotation 0 1 0 1.57
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 0 0 0
+              }
+              geometry Box {
+                size 0.01 0.05 0.28
+              }
+            }
+          ]
+        }
+        DEF Box4 Transform {
+          translation -0.3600000000000001 0.08000000000000011 0.20000000000000046
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 0 0 0
+              }
+              geometry Box {
+                size 0.01 0.05 0.28
+              }
+            }
+          ]
+        }
+        DEF Box5 Transform {
+          translation -0.19988050343316513 0.08000000000000011 0.04988059855361521
+          rotation 0 1 0 1.57
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 0 0 0
+              }
+              geometry Box {
+                size 0.01 0.05 0.28
+              }
+            }
+          ]
+        }
+        DEF Box7 Transform {
+          translation 0.020000000000000004 -0.13999999999999987 0.20000000000000046
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 0 0 0
+              }
+              geometry Box {
+                size 0.01 0.05 0.38
+              }
+            }
+          ]
+        }
+        DEF Box8 Transform {
+          translation -0.1900317928254779 -0.13999999999999987 0.419848685242234
+          rotation 0 1 0 1.57
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 0 0 0
+              }
+              geometry Box {
+                size 0.01 0.05 0.38
+              }
+            }
+          ]
+        }
+        DEF Box9 Transform {
+          translation -0.42000000000000015 -0.13999999999999987 0.20000000000000046
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 0 0 0
+              }
+              geometry Box {
+                size 0.01 0.05 0.38
+              }
+            }
+          ]
+        }
+        DEF Box10 Transform {
+          translation -0.18968140907275513 -0.13999999999999987 -0.02015117524777326
+          rotation 0 1 0 1.57
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 0 0 0
+              }
+              geometry Box {
+                size 0.01 0.05 0.38
+              }
+            }
+          ]
+        }
+      ]
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        anchor -0.17 0.41 0.2
+      }
+      endPoint Solid {
+        translation -0.3099521855198578 0.41008757691409076 0.2
+        rotation 0 0 1 1.57
+        children [
+          DEF WINDS Shape {
+            appearance PBRAppearance {
+            }
+            geometry Cylinder {
+              height 0.07
+              radius 0.03
+            }
+          }
+          HingeJoint {
+            jointParameters HingeJointParameters {
+            }
+            endPoint Solid {
+              translation 0 0.04 0
+              children [
+                Shape {
+                  appearance PBRAppearance {
+                    baseColor 0.5607843137254902 0.34901960784313724 0.00784313725490196
+                  }
+                  geometry Box {
+                    size 0.6 0.01 0.03
+                  }
+                }
+                HingeJoint {
+                  jointParameters HingeJointParameters {
+                  }
+                  endPoint Solid {
+                    rotation 0 1 0 1.57
+                    children [
+                      Shape {
+                        appearance PBRAppearance {
+                          baseColor 0.5607843137254902 0.34901960784313724 0.00784313725490196
+                        }
+                        geometry Box {
+                          size 0.6 0.01 0.03
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+        boundingObject USE WINDS
+        physics Physics {
+        }
+      }
+    }
+  ]
+  name "solid(1)"
+  boundingObject USE GR_OBJECT
+}
